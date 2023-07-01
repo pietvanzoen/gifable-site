@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install:css": "curl -sL https://cdn.simplecss.org/simple.min.css -o css/simple.min.css",
-    "predev": "npm run install:css",
+    "postinstall": "npm run install:css",
     "dev": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
