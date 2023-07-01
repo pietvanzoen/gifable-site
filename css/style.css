@@ -31,7 +31,7 @@
   --accent-bg: #f5f7ff;
   --text: #333;
   --text-light: #585858;
-  --border: #898EA4;
+  --border: #898ea4;
   --accent: color(display-p3 0.5 0.2 1);
   --code: color(display-p3 0.84 0.1 0.37);
   --preformatted: #444;
@@ -53,7 +53,6 @@
   }
 }
 
-
 .title-link {
   color: var(--text) !important;
   text-decoration: none;
@@ -73,14 +72,13 @@
 }
 
 .icon {
-vertical-align: sub;
-padding-right: .25rem;
-display: inline-block;
-width: 1em;
-height: 1.3em;
-margin-right: 0.2rem;
-stroke-width: 0;
-stroke: currentColor;
-fill: currentColor;
+  vertical-align: sub;
+  padding-right: 0.25rem;
+  display: inline-block;
+  width: 1em;
+  height: 1.3em;
+  margin-right: 0.2rem;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
-
