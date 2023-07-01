@@ -1,0 +1,18 @@
+{
+  "name": "gifable-site",
+  "version": "1.0.0",
+  "description": "www.gifable.club",
+  "main": "index.js",
+  "scripts": {
+    "install:css": "curl -sL https://cdn.simplecss.org/simple.min.css -o css/simple.min.css",
+    "predev": "npm run install:css",
+    "dev": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
